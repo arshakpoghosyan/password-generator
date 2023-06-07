@@ -1,0 +1,66 @@
+body{
+    background-image: url(./Image/Password-P.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.container{
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0,5);
+    padding: 45px;
+    border-radius: 15px;
+    border: solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+.form{
+    display: grid;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-weight: bold;
+}
+.number_input{
+    width: 	32px;
+}
+#passwordDisplay{
+    background-color: rgba(255,255,255,0.6);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    height: 30px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: 15px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 2px solid;
+    color: rgb(0, 0, 0);
+    padding: 7px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15px;
+    font-family: inherit;
+}
+.btn:hover{
+    background-color: rgba(255 255 255 0.2);
+}
+
